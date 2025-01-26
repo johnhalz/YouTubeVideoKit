@@ -1,4 +1,4 @@
-# YouTubeKit
+# YouTubeVideoKit
 
 This package allows to extract the direct video url or audio url for any YouTube video. This therefore allows to play YouTube videos in native UI components.
 

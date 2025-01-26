@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "YouTubeVideoKit",
-            targets: ["YouTubeKit"]),
+            targets: ["YouTubeVideoKit"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,7 +25,7 @@ let package = Package(
             name: "YouTubeVideoKit",
             dependencies: []),
         .testTarget(
-            name: "YouTubeKitTests",
-            dependencies: ["YouTubeKit"]),
+            name: "YouTubeVideoKitTests",
+            dependencies: ["YouTubeVideoKit"]),
     ]
 )
